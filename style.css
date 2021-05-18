@@ -1,0 +1,351 @@
+body
+{
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    
+}
+
+#container
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#header
+{
+    display: flex;
+    min-height: 50px;
+    width: 100%;
+    background-color: #776D6D;
+}
+#logo
+{
+    display: flex;
+    
+}
+#logo img
+{
+    height: 80px;
+    max-width: 160px;
+    padding: 5px;
+    
+}
+#logo p
+{
+    font-size: 35px;
+    padding-left: 95px;
+    margin: 29px;
+    position: absolute;
+    color: #111;
+   
+    
+}
+.fa-search
+{
+    background-color: #776D6D;
+    
+    
+}
+#search-bar
+{
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0px 0px 200px;
+    position: relative;
+   
+}
+
+
+#search-bar input
+{
+   width: 100%;
+   padding: 10px;
+   padding-right: 200px;
+   box-sizing: border-box;
+   border: 3px solid #111;
+   background-color: #776D6D;
+   border-radius: 10px;
+   font-size: 15px;
+   outline: none;
+   color: #111;
+}
+
+::-webkit-input-placeholder
+{
+    color: #111;
+}
+
+::-moz-placeholder
+{
+    color: #111;
+}
+::-ms-input-placeholder
+{
+    color: #111;
+}
+
+.fa-search
+{
+    position: absolute;
+    left: 94%;
+    bottom: 55%;
+    cursor: pointer;
+    color: #111;
+}
+
+#courses
+{
+    margin: 5px 0% 0% 4%;
+}
+
+#help
+{
+    margin: 5px 0% 0% 2%;
+}
+
+#wishlist
+{
+    margin: 15px 0% 0% 3%;
+    
+}
+.fa-clipboard-list
+{
+    font-size: 50px;
+    color: #111;
+}
+#cart
+{
+    margin: 15px 0% 0% 2%;
+    font-size: 50px;
+    
+}
+.fa-shopping-cart
+{
+    font-size: 50px;
+    color: #111;
+}
+#sign-in 
+{
+    margin: 24px 0% 0% 1%;
+    
+}
+#sign-in button
+{
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid #111;
+    width: 120px;
+    cursor: pointer;
+    outline: none;
+    background-color: #41658A;
+    font-size: 17px;
+  
+}
+
+#sign-up
+{
+    margin: 24px 0% 0% 4%;
+}
+
+#sign-up button
+{
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid #111;
+    width: 120px;
+    cursor: pointer;
+    outline: none;
+    background-color: #9FA4A9;
+    font-size: 17px;
+}
+
+#secondheader
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #535050;
+    width: 100%;
+    height: 80px;
+}
+#secondheader h2
+{
+    margin: 3%;
+    
+}
+
+.content
+{
+    background: url("content.jpg") no-repeat;
+    width: 100%;
+    height: 78vh;
+    background-size: cover;
+}
+.content-login
+{
+    background: url("kursik.jpg") no-repeat;
+    width: 100%;
+    height: 88vh;
+    background-size: cover;
+}
+#border-login
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 4% auto auto auto;
+    width: 35%;
+    height: 60vh;
+    background-color: #776d6df5;
+}
+
+#border-login form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#login
+{
+    padding: 15px;
+    width: 100%;
+    margin: 14px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid;
+    padding-left: 35px;
+}
+
+.fa-user
+{
+    position: absolute;
+    left: 610px;
+    top: 267px;
+}
+#password
+{
+    padding: 15px;
+    width: 100%;
+    margin: 14px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid;
+    padding-left: 35px;
+}
+.fa-lock
+{
+    position: absolute;
+    left: 610px;
+    top: 342px;
+}
+
+
+
+#e-mail
+{
+    padding: 15px;
+    width: 100%;
+    margin: 14px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid;
+    padding-left: 35px;
+}
+
+#cpassword
+{
+    padding: 15px;
+    width: 100%;
+    margin: 14px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid;
+    padding-left: 35px;
+}
+
+#check
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#button-login
+{
+    margin: 20px;
+    padding: 8px;
+    width: 150%;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    background-color: #5985B1;
+    font-size: 17px;
+}
+
+#border-login a
+{
+    color: #390099;
+    text-decoration: none;
+}
+#border-login h1
+{
+    margin-top: 30px;
+}
+
+#border-register
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 4% auto auto auto;
+    width: 35%;
+    height: 70vh;
+    background-color: #776d6df5;
+}
+
+#border-register form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#border-register .fa-lock
+{
+    position: absolute;
+    left: 610px;
+    top: 410px;
+}
+
+#border-register .fa-user
+{
+    position: absolute;
+    left: 610px;
+    top: 334px;
+}
+
+#border-register .fa-envelope-square
+{
+    position: absolute;
+    left: 610px;
+    top: 260px;
+}
+
+#button-register
+{
+    margin: 20px;
+    padding: 8px;
+    width: 150%;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    background-color: #9FA4A9;
+    font-size: 17px;
+}
