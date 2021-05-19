@@ -50,11 +50,8 @@
                 <button>Sign in</button>
                 </a>
             </div>
-
            
-
         </div>
-
         <div id="secondheader">
             <h2>Programming</h2>
             <h2>Music</h2>
@@ -65,9 +62,25 @@
         </div>
         
         <div class="content">
-
+        <p>Start Programming Today!</p>
         </div>
 
+        <div class="courses">
+            <h1>Latest Courses</h1>
+            <div class="courses-images">
+            <img src="xayoo.jpg">
+            <img src="xayoo.jpg">
+            <img src="xayoo.jpg">
+            </div>
+            <h1>The Most Popular Courses</h1>
+            <div class="courses-images">
+            <img src="xayoo.jpg">
+            <img src="xayoo.jpg">
+            <img src="xayoo.jpg">
+            </div>
+        </div>
+
+        
 
 
     </div>
