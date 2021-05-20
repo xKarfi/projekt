@@ -2,7 +2,7 @@ body
 {
     margin: 0;
     font-family: Helvetica, sans-serif;
-    
+    background-color: #878472;
 }
 
 #container
@@ -183,26 +183,58 @@ body
     
 }
 
-.content
+.mySlides 
 {
-    background: url("content.jpg") no-repeat;
+    display: none;
     width: 100%;
-    height: 78vh;
-    background-size: cover;
+    margin: 0;
 }
 
-.content p
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    height: auto
+  }
+  
+
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+
+.fade img
 {
-    margin-top: 16%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   font-size: 100px;
-   text-shadow: 6px 6px 5px #111;
-    color: #FFF;
-    letter-spacing: 2px;
-    word-spacing: 2px;
+    width: 100%;
+    height: 100vh;
+    vertical-align: middle;
+    
 }
+
+
 
 .courses
 {
