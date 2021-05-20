@@ -61,8 +61,30 @@
             <h2>Chess</h2>
         </div>
         
-        <div class="content">
-        <p>Start Programming Today!</p>
+        <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="xayoo.jpg">
+</div>
+
+<div class="mySlides fade">
+  <img src="content.jpg">
+</div>
+
+<div class="mySlides fade">
+  <img src="kursik.jpg">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+               
+            
         </div>
 
         <div class="courses">
@@ -102,6 +124,6 @@
 
     </div>
         
-        
+    <script src="script.js"></script> 
     </body>
 </html>
