@@ -106,8 +106,8 @@
             <div class="first">
                 <h2>About</h2>
                 <h2>Help</h2>
-                <h2>Privacy Policy</h2>
-                <h2>Contact Us</h2>
+                <a href="policy.php" target="_blank"><h2>Privacy Policy</h2></a>
+                <h2>+48 689 754 359</h2>
             </div>
 
             <div class="second">
