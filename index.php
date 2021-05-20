@@ -80,7 +80,24 @@
             </div>
         </div>
 
-        
+        <div class="footer">
+            <div class="first">
+                <h2>About</h2>
+                <h2>Help</h2>
+                <h2>Privacy Policy</h2>
+                <h2>Contact Us</h2>
+            </div>
+
+            <div class="second">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-twitter"></i>
+            </div>
+            <div class="first">
+            <h4>&copy Ofix inc. All rights reserved.</h4>
+            </div>
+        </div>
 
 
     </div>
